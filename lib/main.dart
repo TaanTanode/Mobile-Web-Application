@@ -15,15 +15,23 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
           appBarTheme: const AppBarTheme(color: Colors.lightGreenAccent)),
       home: Scaffold(
-        // appBar: AppBar(
-        //   title: Text('MyApp'),
-        // ),
+        appBar: AppBar(
+          title: Text('MyApp'),
+        ),
         body: Column(
           children: [
-            Text('Hello Cs MB Test'),
-            Text('kutmb'),
-            Text('BKK TH'),
-          ],//fff
+            Text(
+              'Hello Cs MB test',
+            ),
+            ElevatedButton(
+                onPressed: () {},
+                child: Text(
+                  "OK button",
+                ))
+            // Text(
+            //   'MB test',
+            // ),
+          ],
         ),
       ),
     );
