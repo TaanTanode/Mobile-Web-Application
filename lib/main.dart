@@ -18,20 +18,24 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('MyApp'),
         ),
-        body: Column(
-          children: [
-            Text(
-              'Hello Cs MB test',
-            ),
-            ElevatedButton(
-                onPressed: () {},
-                child: Text(
-                  "OK button",
-                ))
-            // Text(
-            //   'MB test',
-            // ),
-          ],
+        body: Center(
+          child: Column(
+            children: [
+              Text(
+                'Hello Cs MB test',
+              ),
+              ElevatedButton(
+                  onPressed: () {
+                    debugPrint("btn pressed");
+                  },
+                  child: Text(
+                    "OK button",
+                  ))
+              // Text(
+              //   'MB test',
+              // ),
+            ],
+          ),
         ),
       ),
     );
