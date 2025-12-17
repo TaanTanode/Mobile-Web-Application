@@ -15,13 +15,13 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
           appBarTheme: const AppBarTheme(color: Colors.lightGreenAccent)),
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('MyApp'),
-        ),
-        body: Text(
-          'Hello Cs MB test',
-          style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
-        ),
+        // appBar: AppBar(
+        //   title: Text('MyApp'),
+        // ),
+        // body: Text(
+        //   'Hello Cs MB test',
+        //   style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+        // ),
       ),
     );
   }
